@@ -5,9 +5,9 @@ const itemList = document.getElementById("itemList");
 // Daftar item dengan tingkat kelangkaan
 const items = [
   { name: "Item biasa", rarity: "common", chance: 50 },
-  { name: "Item rare", rarity: "rare", chance: 30 },
-  { name: "Item epick", rarity: "epic", chance: 15 },
-  { name: "Item legendaris", rarity: "legendary", chance: 5 },
+  { name: "Item rare", rarity: "rare", chance: 20 },
+  { name: "Item epick", rarity: "epic", chance: 5 },
+  { name: "Item legendaris", rarity: "legendary", chance: 0.0001 },
 ];
 
 let inventory = [];
